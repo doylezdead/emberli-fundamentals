@@ -1,0 +1,5 @@
+<ul>
+    {{#each model as |course|}}
+ <li>{{link-to course.title 'course.view' course.id}}</li>
+    {{/each}}
+</ul>
